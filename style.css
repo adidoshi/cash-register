@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&display=swap");
+
+:root {
+    --primary-color: #7c3aed;
+    --secondary-color: #818cf8;
+}
+
+* {
+    font-family: "Roboto Slab", serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.section {
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    margin: auto;
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: var(--primary-color);
+}
+
+.section p {
+    color: white;
+}
+
+.title {
+    font-size: 1rem;
+    padding: 1.5rem 1rem 0.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    height: 50px;
+    display: block;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    font-size: 1rem;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cashGivenInput {
+    display: none;
+}
+
+.incorrectAmountMsg {
+    padding-top: 1rem;
+    color: white;
+}
+
+#output {
+    margin: 1rem 0;
+}
+
+#output table,
+th,
+td {
+    padding: 0.2rem;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 2px solid var(--primary-color);
+    border-collapse: collapse;
+}
+
+.noOfNotes {
+    background-color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.changeCashReturn {
+    display: none;
+}
